@@ -12,9 +12,9 @@ $recipientNumber = htmlspecialchars(trim($_POST["recipient_number"]));
 */
 $message = htmlspecialchars(trim($_POST["message"]));
 
-$accountSid = "AC16c2484c88c70c950ccf4b2e8fc17482";
-$authToken = "2d4ab7752b0f65907c1fae3b6df743f7";
-$twilioNumber = "+15712813898";
+$accountSid = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+$authToken = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+$twilioNumber = "+1000000000000000000";
 
 //Start the cURL Connection
 //Twilio Endpoint
